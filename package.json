@@ -1,0 +1,13 @@
+{
+  "name": "teyvat-backpack-r2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "npm ci --prefix vendor/deps && node scripts/link-vendor.mjs",
+    "build": "node game/build.mjs && node build.mjs",
+    "test": "node game/tests/engine.mjs && node game/tests/content.mjs && node game/tests/optimization.mjs && node game/tests/progression.mjs",
+    "test:simulator": "node game/tests/native.mjs",
+    "test:browser-core": "node test-browser-core.mjs",
+    "package": "python scripts/catalog.py && python scripts/validation.py && python scripts/package.py"
+  }
+}

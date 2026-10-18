@@ -1,0 +1,9 @@
+vendor/deps/node_modules/
+vendor/node_modules
+*.tar.gz
+game/qa/
+
+__pycache__/
+*.pyc
+
+.openai/
