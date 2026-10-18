@@ -1,0 +1,2 @@
+import fs from'node:fs';import path from'node:path';const root=path.resolve(import.meta.dirname,'..');function link(dest,target){if(!fs.existsSync(dest))fs.symlinkSync(target,dest,'dir')}
+link(path.join(root,'vendor/node_modules'),'deps/node_modules');for(const[name,dir]of[['qxqy-lua-runtime','client/lua-runtime'],['qxqy-server','server'],['qxqy-studio','studio']])link(path.join(root,'vendor/deps/node_modules',name),'../../miliastra-beyond-simulator/'+dir);
