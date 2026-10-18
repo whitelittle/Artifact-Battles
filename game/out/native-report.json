@@ -1,0 +1,30 @@
+{
+  "version": "R2.1",
+  "source": "3 GIA reimported; actual native cursor hover, click and drag events",
+  "initialFrames": 194,
+  "initialControls": 9418,
+  "previousInitialControls": 24101,
+  "created": 21622,
+  "peakCreated": 60,
+  "matchingFrames": 293,
+  "checks": [
+    "8-role picker with deferred growth",
+    "valid/invalid placement preview",
+    "recipe tracking",
+    "bag drag, rotation and undo",
+    "keyboard drag cancellation",
+    "invalid drop rollback",
+    "shop drag cancel without charge",
+    "shop drag purchase",
+    "synergy highlighting",
+    "stash drag",
+    "incremental matching",
+    "pre-battle portrait loading",
+    "combat and contributions reconciliation",
+    "result analysis",
+    "save export/import",
+    "next-round matching anchor",
+    "no allocation during active battle"
+  ],
+  "errors": []
+}

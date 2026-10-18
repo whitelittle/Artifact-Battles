@@ -1,0 +1,60 @@
+{
+  "sampleBattles": 168,
+  "stages": [
+    1,
+    8,
+    18
+  ],
+  "heroes": {
+    "raiden": {
+      "wins": 13,
+      "draws": 9,
+      "games": 42,
+      "damage": 7051.623602
+    },
+    "nahida": {
+      "wins": 27,
+      "draws": 9,
+      "games": 42,
+      "damage": 7130.88181725
+    },
+    "zhongli": {
+      "wins": 19,
+      "draws": 12,
+      "games": 42,
+      "damage": 6519.43207425
+    },
+    "furina": {
+      "wins": 30,
+      "draws": 8,
+      "games": 42,
+      "damage": 6924.992506
+    },
+    "xiangling": {
+      "wins": 3,
+      "draws": 17,
+      "games": 42,
+      "damage": 6450.639724
+    },
+    "noelle": {
+      "wins": 8,
+      "draws": 10,
+      "games": 42,
+      "damage": 6194.26330488
+    },
+    "fischl": {
+      "wins": 7,
+      "draws": 16,
+      "games": 42,
+      "damage": 6693.366346
+    },
+    "klee": {
+      "wins": 14,
+      "draws": 13,
+      "games": 42,
+      "damage": 6511.215298
+    }
+  },
+  "averageSeconds": 11.892261904762,
+  "method": "Identical legal layout, items and talents for all eight cores at each stage; swapped seats. Isolates core effects from random bot compositions. Limited screening, not a live-player balance guarantee."
+}

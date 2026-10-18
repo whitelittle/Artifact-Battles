@@ -1,0 +1,46 @@
+{
+  "browserBundle": true,
+  "tests": [
+    {
+      "device": "pc-16-9",
+      "ready": true,
+      "pick": true,
+      "saveRoundtrip": true,
+      "drag": true,
+      "invalidDropRollback": true,
+      "deferredPortraitGrowth": true,
+      "controls": 10335
+    },
+    {
+      "device": "pc-21-9",
+      "ready": true,
+      "pick": true,
+      "saveRoundtrip": true,
+      "drag": true,
+      "invalidDropRollback": true,
+      "deferredPortraitGrowth": true,
+      "controls": 10335
+    },
+    {
+      "device": "mobile-19.5-9",
+      "ready": true,
+      "pick": true,
+      "saveRoundtrip": true,
+      "drag": true,
+      "invalidDropRollback": true,
+      "deferredPortraitGrowth": true,
+      "controls": 10335
+    },
+    {
+      "device": "mobile-4-3",
+      "ready": true,
+      "pick": true,
+      "saveRoundtrip": true,
+      "drag": true,
+      "invalidDropRollback": true,
+      "deferredPortraitGrowth": true,
+      "controls": 10335
+    }
+  ],
+  "limit": "VM tests of browser-target runtime; live browser Pixi rendering was not available."
+}

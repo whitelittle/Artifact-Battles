@@ -1,0 +1,58 @@
+{
+  "raiden": {
+    "controls": 7516,
+    "previousControls": 7869,
+    "pixelExact": true,
+    "method": "64-color, 192px source; lossless maximal-area rectangle cover; face details retained; native vector rectangles",
+    "nativeHeight": 200
+  },
+  "nahida": {
+    "controls": 8078,
+    "previousControls": 8373,
+    "pixelExact": true,
+    "method": "64-color, 192px source; lossless maximal-area rectangle cover; face details retained; native vector rectangles",
+    "nativeHeight": 200
+  },
+  "zhongli": {
+    "controls": 8830,
+    "previousControls": 9275,
+    "pixelExact": true,
+    "method": "64-color, 192px source; lossless maximal-area rectangle cover; face details retained; native vector rectangles",
+    "nativeHeight": 200
+  },
+  "furina": {
+    "controls": 6789,
+    "previousControls": 7004,
+    "pixelExact": true,
+    "method": "64-color, 192px source; lossless maximal-area rectangle cover; face details retained; native vector rectangles",
+    "nativeHeight": 200
+  },
+  "xiangling": {
+    "controls": 8433,
+    "previousControls": 8754,
+    "pixelExact": true,
+    "method": "64-color, 192px source; lossless maximal-area rectangle cover; face details retained; native vector rectangles",
+    "nativeHeight": 200
+  },
+  "noelle": {
+    "controls": 9497,
+    "previousControls": 9774,
+    "pixelExact": true,
+    "method": "64-color, 192px source; lossless maximal-area rectangle cover; face details retained; native vector rectangles",
+    "nativeHeight": 200
+  },
+  "fischl": {
+    "controls": 8409,
+    "previousControls": 8719,
+    "pixelExact": true,
+    "method": "64-color, 192px source; lossless maximal-area rectangle cover; face details retained; native vector rectangles",
+    "nativeHeight": 200
+  },
+  "klee": {
+    "controls": 10890,
+    "previousControls": 11109,
+    "pixelExact": true,
+    "method": "64-color, 192px source; lossless maximal-area rectangle cover; face details retained; native vector rectangles",
+    "nativeHeight": 200
+  }
+}

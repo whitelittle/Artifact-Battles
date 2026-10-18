@@ -1,0 +1,42 @@
+{
+  "raiden": {
+    "controls": 7869,
+    "method": "64-color, 192px source; lossless color-run rectangle merging; face details retained; native vector rectangles",
+    "nativeHeight": 200
+  },
+  "nahida": {
+    "controls": 8373,
+    "method": "64-color, 192px source; lossless color-run rectangle merging; face details retained; native vector rectangles",
+    "nativeHeight": 200
+  },
+  "zhongli": {
+    "controls": 9275,
+    "method": "64-color, 192px source; lossless color-run rectangle merging; face details retained; native vector rectangles",
+    "nativeHeight": 200
+  },
+  "furina": {
+    "controls": 7004,
+    "method": "64-color, 192px source; lossless color-run rectangle merging; face details retained; native vector rectangles",
+    "nativeHeight": 200
+  },
+  "xiangling": {
+    "controls": 8754,
+    "method": "64-color, 192px source; lossless color-run rectangle merging; face details retained; native vector rectangles",
+    "nativeHeight": 200
+  },
+  "noelle": {
+    "controls": 9774,
+    "method": "64-color, 192px source; lossless color-run rectangle merging; face details retained; native vector rectangles",
+    "nativeHeight": 200
+  },
+  "fischl": {
+    "controls": 8719,
+    "method": "64-color, 192px source; lossless color-run rectangle merging; face details retained; native vector rectangles",
+    "nativeHeight": 200
+  },
+  "klee": {
+    "controls": 11109,
+    "method": "64-color, 192px source; lossless color-run rectangle merging; face details retained; native vector rectangles",
+    "nativeHeight": 200
+  }
+}

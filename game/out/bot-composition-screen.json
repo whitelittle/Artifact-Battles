@@ -1,0 +1,60 @@
+{
+  "sampleBattles": 168,
+  "stages": [
+    1,
+    8,
+    18
+  ],
+  "heroes": {
+    "raiden": {
+      "wins": 32,
+      "draws": 2,
+      "games": 42,
+      "damage": 8104.54202
+    },
+    "nahida": {
+      "wins": 33,
+      "draws": 3,
+      "games": 42,
+      "damage": 8690.437375
+    },
+    "zhongli": {
+      "wins": 14,
+      "draws": 2,
+      "games": 42,
+      "damage": 6610.15182
+    },
+    "furina": {
+      "wins": 24,
+      "draws": 0,
+      "games": 42,
+      "damage": 7793.5843896374
+    },
+    "xiangling": {
+      "wins": 12,
+      "draws": 2,
+      "games": 42,
+      "damage": 6158.629836
+    },
+    "noelle": {
+      "wins": 5,
+      "draws": 1,
+      "games": 42,
+      "damage": 5130.751148
+    },
+    "fischl": {
+      "wins": 16,
+      "draws": 1,
+      "games": 42,
+      "damage": 6669.0261952
+    },
+    "klee": {
+      "wins": 26,
+      "draws": 1,
+      "games": 42,
+      "damage": 7654.77408
+    }
+  },
+  "averageSeconds": 15.03125,
+  "method": "Same frozen budget tier, legal generated layouts; round-robin with swapped seats. This is a screening sample, not a live-player balance guarantee."
+}

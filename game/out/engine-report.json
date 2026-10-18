@@ -1,0 +1,1 @@
+{"items":140,"recipes":34,"heroes":8,"deterministic":true,"legalBots":144,"checks":["transaction guards","lock","reroll escalation","craft","collision","full run milestones","endless","deterministic battle"]}

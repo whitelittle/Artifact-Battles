@@ -1,0 +1,24 @@
+{
+  "luaBytes": 3545886,
+  "items": 140,
+  "characters": 8,
+  "recipes": 34,
+  "opponents": 576,
+  "roundtrip": true,
+  "scriptGuid": 1077936801,
+  "hostGuid": 1073742800,
+  "files": [
+    "01_提瓦特背包乱斗_R2_UI.gia",
+    "02_提瓦特背包乱斗_R2_图元模板.gia",
+    "03_提瓦特背包乱斗_R2_Lua.gia"
+  ],
+  "warnings": [
+    "当前服务器控件 GIA 不包含 1 个 Lua 脚本的源码；请使用「资产包 GIA 整合包」，或另行导入脚本包并核对挂载。",
+    "提瓦特背包乱斗_R2_服务端组: 新服务端控件模板写入显式空 Info.related，避免跨沙箱复用伴生资源 GUID 产生无法加载的索引。",
+    "BP_group: 新客户端控件模板写入显式空 Info.related，避免跨沙箱复用伴生资源 GUID 产生无法加载的索引。",
+    "BP_rect: 新客户端控件模板写入显式空 Info.related，避免跨沙箱复用伴生资源 GUID 产生无法加载的索引。",
+    "BP_text: 新客户端控件模板写入显式空 Info.related，避免跨沙箱复用伴生资源 GUID 产生无法加载的索引。",
+    "BP_cursor: 新客户端控件模板写入显式空 Info.related，避免跨沙箱复用伴生资源 GUID 产生无法加载的索引。",
+    "脚本挂载关系不进入 GIA：官方 script.gia 只含映射（ID/名称/路径/源码），导入后需重新挂载。"
+  ]
+}
