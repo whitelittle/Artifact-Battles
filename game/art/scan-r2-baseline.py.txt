@@ -1,0 +1,26 @@
+from PIL import Image,ImageFilter
+import numpy as np,json
+from pathlib import Path
+r=Path(__file__).parent;out={};report={}
+for hero in json.loads((r/'data/catalog.json').read_text())['characters']:
+ name=hero['id'];im=Image.open(r.parent/'dist/portraits'/f'{name}.png').convert('RGBA');bbox=im.getchannel('A').point(lambda a:255 if a>=170 else 0).getbbox();im=im.crop(bbox);w=192;h=round(w*im.height/im.width);im=im.resize((w,h),Image.Resampling.LANCZOS);valid=np.array(im.getchannel('A'))>=170;q=im.convert('RGB').filter(ImageFilter.MedianFilter(3)).quantize(colors=64);pal=q.getpalette();arr=np.array(q);smooth=np.array(q.filter(ImageFilter.ModeFilter(3)));arr[int(h*.3):]=smooth[int(h*.3):];rects=[];active={}
+ for y in range(h):
+  runs=[];x=0
+  while x<w:
+   if not valid[y,x]:x+=1;continue
+   start=x;c=int(arr[y,x]);x+=1
+   while x<w and valid[y,x]and arr[y,x]==c:x+=1
+   runs.append((start,x,c))
+  next={}
+  for start,end,c in runs:
+   key=(start,end,c)
+   if key in active:
+    idx=active[key];rects[idx][3]+=1
+   else:idx=len(rects);rects.append([start,y,end-start,1,c+1])
+   next[key]=idx
+  active=next
+ v=[]
+ for x,y,ww,hh,c in rects:v.extend([(x+ww/2-w/2)*200/h,(h-y-hh/2)*200/h,(ww+.2)*200/h,(hh+.35)*200/h,0,0,c])
+ out[name]={'n':len(rects),'r':v,'pal':[pal[i:i+3]+[255]for i in range(0,192,3)],'mode':'scan'};report[name]={'controls':len(rects),'method':'64-color, 192px source; lossless color-run rectangle merging; face details retained; native vector rectangles','nativeHeight':200}
+ print(name,len(rects))
+(r/'art/portraits.json').write_text(json.dumps(out,separators=(',',':')));(r/'out/portrait-fit-report.json').write_text(json.dumps(report,indent=2))
