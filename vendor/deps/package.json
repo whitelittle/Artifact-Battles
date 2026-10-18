@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.100",
+    "esbuild": "^0.25.12",
+    "fengari": "^0.1.5",
+    "pixi.js": "^8.20.0",
+    "protobufjs": "^8.7.2"
+  }
+}
