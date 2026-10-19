@@ -1,10 +1,10 @@
 {
   "version": "R2.1",
   "source": "3 GIA reimported; actual native cursor hover, click and drag events",
-  "initialFrames": 194,
-  "initialControls": 9418,
+  "initialFrames": 219,
+  "initialControls": 10956,
   "previousInitialControls": 24101,
-  "created": 21622,
+  "created": 23160,
   "peakCreated": 60,
   "matchingFrames": 293,
   "checks": [

@@ -9,7 +9,7 @@
       "drag": true,
       "invalidDropRollback": true,
       "deferredPortraitGrowth": true,
-      "controls": 10335
+      "controls": 11873
     },
     {
       "device": "pc-21-9",
@@ -19,7 +19,7 @@
       "drag": true,
       "invalidDropRollback": true,
       "deferredPortraitGrowth": true,
-      "controls": 10335
+      "controls": 11873
     },
     {
       "device": "mobile-19.5-9",
@@ -29,7 +29,7 @@
       "drag": true,
       "invalidDropRollback": true,
       "deferredPortraitGrowth": true,
-      "controls": 10335
+      "controls": 11873
     },
     {
       "device": "mobile-4-3",
@@ -39,7 +39,7 @@
       "drag": true,
       "invalidDropRollback": true,
       "deferredPortraitGrowth": true,
-      "controls": 10335
+      "controls": 11873
     }
   ],
   "limit": "VM tests of browser-target runtime; live browser Pixi rendering was not available."
