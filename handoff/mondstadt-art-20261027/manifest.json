@@ -1,0 +1,60 @@
+{
+  "format_version": 1,
+  "chunk_size_bytes": 20971520,
+  "packages": [
+    {
+      "name": "Mondstadt-Art-Lua-Handoff-v1.zip",
+      "size": 122964775,
+      "sha256": "6109e4ed590d803f605e9532205cb074b4f3e6b792233cd9f0a448fba8679941",
+      "parts": [
+        {
+          "name": "Mondstadt-Art-Lua-Handoff-v1.zip.part001",
+          "size": 20971520,
+          "sha256": "957124144b1559c977648273a57f405a131595f1734e7c2cfac14c77e28c6e20"
+        },
+        {
+          "name": "Mondstadt-Art-Lua-Handoff-v1.zip.part002",
+          "size": 20971520,
+          "sha256": "7e7ccd75fa0f7afdc09ba8b72682587ad8bc61d9c8e52e89046880aeb9103c47"
+        },
+        {
+          "name": "Mondstadt-Art-Lua-Handoff-v1.zip.part003",
+          "size": 20971520,
+          "sha256": "3b64748d14bb4f8c6195c2c21362b51a57ac3d240e3d7573bc38acfaf7e8e81e"
+        },
+        {
+          "name": "Mondstadt-Art-Lua-Handoff-v1.zip.part004",
+          "size": 20971520,
+          "sha256": "6c08e25395c07618d638e0c261d941a1ac3424af505ee2036f089b64bd91006c"
+        },
+        {
+          "name": "Mondstadt-Art-Lua-Handoff-v1.zip.part005",
+          "size": 20971520,
+          "sha256": "c174766ee4a34b4f82fcb8481719ad5c3425cb1cecefa13a859b769e4f71f1fe"
+        },
+        {
+          "name": "Mondstadt-Art-Lua-Handoff-v1.zip.part006",
+          "size": 18107175,
+          "sha256": "ac7e53fc4a75a67cc42d209d4820660183471aa6d1609cd0245a3615fde5f4ee"
+        }
+      ]
+    },
+    {
+      "name": "Simulator-Art-Preview-v1.zip",
+      "size": 22890623,
+      "sha256": "76f42c8f48381c30655d35bf724193533cd9e63a7a9983b8c91d04058e07b522",
+      "parts": [
+        {
+          "name": "Simulator-Art-Preview-v1.zip.part001",
+          "size": 20971520,
+          "sha256": "42198d3647f02ab7a6941823d9e238141cbd75bcfb401d64476961b03ef1b450"
+        },
+        {
+          "name": "Simulator-Art-Preview-v1.zip.part002",
+          "size": 1919103,
+          "sha256": "e9e4763fb19d13c877cc2c2c74d0037c9d722fb4ddad34cb98b68497e2481e4c"
+        }
+      ]
+    }
+  ]
+}
